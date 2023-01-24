@@ -2,6 +2,11 @@
     font-family: 'Roboto', sans-serif;
 }
 
+.sidebar-main{
+    height: calc(100vh - 57px);
+    background-color: #061C2E;
+    width: 150px;
+}
 
 /* X-Small devices (portrait phones, less than 576px) */
 /* No media query for `xs` since this is the default in Bootstrap */
