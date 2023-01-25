@@ -82,11 +82,51 @@
 
         <section class="main position-fixed end-0 bottom-0">
             <div class="container-fluid">
-                <div class="row blu-main py-5">
-                  <div class="col"></div>
-                  <div class="col"></div>
-                  <div class="col"></div>
+                <div class="row blu-main py-3 justify-content-between text-white flex-column-reverse flex-sm-row">
+                  <div class="col">
+                    <h2>Boolean</h2>
+                  </div>
+                  <div class="col">
+                    <p>Studenti online negli unltimi 30 minuti</p>
+                    <p class="fs-1">125</p>
+                  </div>
+                  <div class="col text-lg-end">
+                    <span class=" me-3 ">Nuovo Studente</span>
+                    <button class="btn btn-outline-light border-white" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasRight" aria-controls="offcanvasRight">+</button>
+
+                    <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasRight" aria-labelledby="offcanvasRightLabel">
+                      <div class="offcanvas-header">
+                        <h5 class="offcanvas-title" id="offcanvasRightLabel">Inserisci un nuovo studente</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                      </div>
+                      <div class="offcanvas-body">
+                        <div class="container">
+                          <div class="row">
+                            <div class="col">
+                              <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                              </div>
+                            </div>
+                            <div class="col">
+                              <div class="mb-3">
+                                <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row"></div>
+                          <div class="row"></div>
+                          <div class="row"></div>
+                          <div class="row"></div>
+                          <div class="row"></div>
+                          <div class="row"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
+
                 <div class="row"></div>
             </div>
         </section>
